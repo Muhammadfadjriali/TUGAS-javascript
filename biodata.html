@@ -1,0 +1,68 @@
+<HTML>
+ <BODY>
+ <SCRIPT language="JavaScript" SRC="biodata.js">
+ <!--
+function biodata(){
+var nama =document.ffrom.inama.value;
+var alamat = (document.fform.ialamat.value);
+var ttl = (document.fform.ittl.value);
+var asalsekolah = (document.fform.iasalsekolah.value);
+var pt= (document.fform.ipt.value);
+var fakultas= (document.fform.ifakultas.value);
+var prodi = (document.fform.iprodi.value);
+var semester=(document fform.isemester.value);
+var saran = (document.fform.isdm.value);
+
+
+}
+//--></SCRIPT>
+ <form name ="ffrom">
+<table border="1" align="center"width="70%">
+<tr>
+<td width="100%" colspan="2"><H2 ALIGN="center">BIODATA DIRI</H2>
+</tr>
+<tr>
+<td width="50%">
+<pre><justify>
+Nama            :<input type="text" size="20" name="inama">
+Alamat          :<input type="text" size="20" name="ialamat">
+TTL             :<input type="date" placeholder="mm/dd/yyyy" name="ittl">
+Asal Sekolah    :<select name="iasalsekolah" size=1>
+<option value="SMA">Asal Sekolah</option>
+<option value="SMA">Sekolah Menengah Atas</option>
+<option value="SMK">Sekolah Menengah Kejuruan</option>
+</select>
+Peguruan Tinggi :<input type="checkbox" name="ipt">Perguruan Tinggi Negeri
+                 <input type="checkbox" name="ipt">Perguruan Tinggi Swasta
+Fakultas        :<select name="ifakultas" size="1">
+                  <option value="Pilih Fakultas">Pilih Fakultas Anda</option>    
+                  <option value="Fakultas Tekhnologi Industri">Fakultas Tekhnologi Industri</option>    
+                  <option value="Fakultas Kedokteran">Fakultas Kedokteran</option>    
+                  <option value="Fakultas Agama Islam">Fakultas Agama Islam</option>    
+                  <option value="Fakultas Pendidikan">Fakultas Pendidikan</option>    
+                  <option value="Fakultas MIPA">Fakultas MIPA</option>    
+                </select> 
+
+Prodi           :<input type="text" name="iprodi">
+Semester        :<input type="radio" name="isemester">1
+                 <input type="radio" name="isemester">2
+                 <input type="radio" name="isemester">3
+                 <input type="radio" name="isemester">4
+                 <input type="radio" name="isemester">5
+                 <input type="radio" name="isemester">6
+                 <input type="radio" name="isemester">7
+                 <input type="radio" name="isemester">8
+Saran dan Masukan: <textarea name="isdm" cols="30" rows="5" placeholder="saran dan masukkan"></textarea>
+</justify> 
+<tr>
+<td width="100%" colspan="2">
+<center>
+<INPUT TYPE="button" value="SIMPAN" onclick="biodata()">
+<INPUT TYPE="reset" value="ULANG">
+</center></td>
+</tr>
+</td>
+</pre>
+</td>
+ </BODY>
+</HTML
